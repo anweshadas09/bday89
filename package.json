@@ -1,0 +1,15 @@
+{
+  "name": "raju-birthday-site",
+  "version": "1.0.0",
+  "description": "Happy Birthday Raju - Spider-Man Themed Birthday Site",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "birthday",
+    "spiderman"
+  ],
+  "author": "AnA",
+  "license": "ISC"
+}
