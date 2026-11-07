@@ -1,7 +1,4 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/site/index.html" },
-    { "source": "/img/(.*)", "destination": "/site/img/$1" },
-    { "source": "/(.*)", "destination": "/site/$1" }
-  ]
+  "framework": null,
+  "cleanUrls": true
 }
