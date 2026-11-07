@@ -29,10 +29,10 @@ const server = http.createServer((req, res) => {
     reqPath = '/index.html';
   }
 
-  // Check both site/ and root
-  let filePath = path.join(SITE_DIR, reqPath);
+  // Check root first, then site/
+  let filePath = path.join(__dirname, reqPath);
   if (!fs.existsSync(filePath)) {
-    filePath = path.join(__dirname, reqPath);
+    filePath = path.join(SITE_DIR, reqPath);
   }
 
   // If path is a directory, look for index.html
